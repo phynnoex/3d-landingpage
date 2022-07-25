@@ -1,0 +1,93 @@
+*{
+    font-family: montserrat;
+    font-weight: bold;
+}
+body{
+    background-image: url(./images/background.png);
+    background-size: 100%;
+
+}
+ .container .head-text{ 
+    color: #ca602e;
+    font-weight: bold;
+    
+}
+.section-1 .container .selector{
+    margin-top: -65px;
+    margin-left: -55px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+ .container.head-cont{
+    margin-left: 100px;
+}
+.section-1 .container p{
+    font-family: montserrat;
+}
+.section-1 .container .mouse-div p{
+    font-family: montserrat;
+}
+.section-2 .card-sect .card{
+    background: linear-gradient(180deg, rgb(22, 22, 22) 0%, rgb(21, 21, 21) 100%);
+    box-shadow: 5px 10px 30px rgb(8, 8, 8);
+    height: 380px;
+    width: 350px;
+    border-radius: 30px;
+    padding: 1rem;
+    padding: 0.5px;
+}
+.section-2 .card-sect .card .card-radius{
+    background-color: #2a170e;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    padding: 12px;
+    opacity: 1;
+}
+.section-2 .card-sect .card .card-radius i{
+    color: white;
+    opacity: 0.7;
+}
+
+.section-2 .card-sect .card .card-circle{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 12px;
+    font-weight:900;
+    color: white;
+    /* Created with https://www.css-gradient.com */
+    background: -webkit-linear-gradient(top left, #971243, #dd06bd);
+    /*background: -moz-linear-gradient(top left, #BD1B4B, #48287D);
+    background: linear-gradient(to bottom right, #BD1B4B, #48287D);*/
+}
+.section-2 .card-sect .card .card-circle-1{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 12px;
+    font-weight:900;
+    color: white;
+    /* Created with https://www.css-gradient.com */
+    background: -webkit-linear-gradient(top left, #af5405, #fae20b);
+    /*background: -moz-linear-gradient(top left, #BD1B4B, #48287D);
+    background: linear-gradient(to bottom right, #BD1B4B, #48287D);*/
+}
+
+
+
+.section-2 .card-sect .card .render h4{
+    font-family: montserrat;
+    font-size: 22px;
+    color: white;
+    line-height: 30px;
+}
+@media screen and (max-width: 601px) {
+    .container.head-cont{
+        margin-left: 40px;
+    }
+    
+}
